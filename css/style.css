@@ -70,7 +70,6 @@ li a:hover:not(.active) {
 }
 
 #bgm_title{
-	font-family: 'Amita', cursive;
 	padding:0;
 	margin:0;
 	text-align: center;
@@ -79,12 +78,15 @@ li a:hover:not(.active) {
 /**
  * my favorite:
  */
+ #myfavorite_text{
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 2em;
+ }
+
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
+    margin: 5%;
+    border: 0.1em solid #ccc;
 	width: 80%;
-	text-align: center;
 }
 div.gallery:hover {
     border: 1px solid #777;
@@ -97,12 +99,13 @@ div.gallery:hover {
 	height: auto;
 	min-height: 100%;
 }
-
+/**
 #rotate{
 	transform: rotate(90deg);
 	margin-top: 7em;
-	margin-bottom: 6em;
+	margin-bottom: 7em;
 }
+*/
 
 #us img{
 	width: 100%;
@@ -128,5 +131,10 @@ div.gallery:hover {
 .contact_title{
 	font-size:2em;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
+}
+#phone{
+	float: left;
+	width: 10%;
+	height:auto;
+}
