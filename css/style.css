@@ -75,6 +75,31 @@ li a:hover:not(.active) {
 	text-align: center;
 }
 
+/**
+ * my favorite:
+ */
+ #japan img{
+    width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+}
+
+#hiroshima{
+	transform: rotate(90deg);
+	margin-top: 7em;
+	margin-bottom: 6em;
+}
+
+#us img{
+	width: 100%;
+    height: auto;
+}
+
+.img_title{
+	border-color: black;
+}
+
+
 
 
 
