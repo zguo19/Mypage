@@ -61,3 +61,20 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
+/**
+ * Home page:
+ */
+ #bgm{
+	float:right;
+}
+
+#bgm_title{
+	font-family: 'Amita', cursive;
+	padding:0;
+	margin:0;
+	text-align: center;
+}
+
+
+
+
