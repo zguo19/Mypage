@@ -1,15 +1,63 @@
+html {
+	background-color:whitesmoke;
+	margin: 0em 3em 0em 3em;
+	height: 100%;
+}
 body {
-    background-color:whitesmoke;
+    background-color:lightgoldenrodyellow;
     font-family: Arial;
 	padding-top: 1em;
 	padding-right: 3em;
-	padding-bottom: 1em;
+	min-height: 100%;
+	padding-bottom: 2em;
 	padding-left: 3em;
 }
 
+p{
+	text-align: center;
+}
+
+h1{
+	padding: 0.5em;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 3em;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+	margin-left: -3em;
+	margin-right: -3em;
+	padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+	display:inline-block;
+	min-width: 1em;
+	min-height: 0.5em;
+}
 
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-
-
+li a:hover:not(.active) {
+    background-color: #111;
+}
 
