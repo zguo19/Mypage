@@ -2,6 +2,7 @@ html {
 	background-color:whitesmoke;
 	margin: 0em 3em 0em 3em;
 	height: 100%;
+	min-height: 100%;
 }
 body {
     background-color:lightgoldenrodyellow;
@@ -78,13 +79,26 @@ li a:hover:not(.active) {
 /**
  * my favorite:
  */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+	width: 80%;
+	text-align: center;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+
+
  #japan img{
     width: 100%;
 	height: auto;
-	border: 1px solid #ccc;
+	min-height: 100%;
 }
 
-#hiroshima{
+#rotate{
 	transform: rotate(90deg);
 	margin-top: 7em;
 	margin-bottom: 6em;
@@ -92,7 +106,8 @@ li a:hover:not(.active) {
 
 #us img{
 	width: 100%;
-    height: auto;
+	height: auto;
+	min-height: 100%;
 }
 
 .img_title{
@@ -103,12 +118,15 @@ li a:hover:not(.active) {
 /**
  * Resume:
  */
- #dl{
-	
+ div.dl{
+	border: 1em;
 }
 
 /**
  * Contact:
  */
-
+.contact_title{
+	font-size:2em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
