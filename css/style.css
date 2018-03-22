@@ -144,13 +144,11 @@ div.gallery:hover {
 
 }
 #phone{
-	float: center;
 	width: 4%;
 	height:auto;
 }
 #phone2{
 	transform: rotateY(180deg);
-	float: center;
 	width: 4%;
 	height:auto;
 }
