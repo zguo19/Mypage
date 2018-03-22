@@ -65,6 +65,13 @@ li a:hover:not(.active) {
 /**
  * Home page:
  */
+
+ #intro p{
+	text-align: left;
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 1em;
+ }
+
  #bgm{
 	float:right;
 }
@@ -87,6 +94,9 @@ div.gallery {
     margin: 5%;
     border: 0.1em solid #ccc;
 	width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 div.gallery:hover {
     border: 1px solid #777;
@@ -134,7 +144,13 @@ div.gallery:hover {
 
 }
 #phone{
-	float: left;
-	width: 10%;
+	float: center;
+	width: 4%;
+	height:auto;
+}
+#phone2{
+	transform: rotateY(180deg);
+	float: center;
+	width: 4%;
 	height:auto;
 }
