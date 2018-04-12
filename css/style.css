@@ -12,26 +12,21 @@ body {
 	padding-bottom: 2em;
 	padding-left: 3em;
 }
-
 p{
 	text-align: center;
 }
-
 h1{
 	padding: 0.5em;
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
 	font-size: 3em;
 }
-
 h2{
 	text-align: center;
 }
-
 h3{
 	text-align: center;
 }
-
 ul{
 	text-align: center;
 	list-style-type: none;
@@ -41,14 +36,11 @@ ul{
     overflow: hidden;
     background-color: #333;
 }
-
 li{
 	display:inline-block;
 	min-width: 1em;
 	min-height: 0.5em;
 }
-
-
 li a {
     display: block;
     color: white;
@@ -56,7 +48,6 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover:not(.active) {
     background-color: #111;
 }
@@ -67,7 +58,6 @@ li a:hover:not(.active) {
 #intro-title{
 	color:white;
 }
-
  #intro p{
 	/**font-family: 'IBM Plex Serif', serif;*/
 	font-family: 'Gaegu', cursive;;
@@ -75,7 +65,6 @@ li a:hover:not(.active) {
 	color:white;
 	margin:0;
  }
-
  #intro{
 	 border:1em outset;
 	 position: relative;
@@ -83,14 +72,12 @@ li a:hover:not(.active) {
 	 background-image: url('../media/paper.png');
 	 background-color: black;
  }
-
  #bgm{
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 	float: right;
  }
-
  div.music{
 	 float:right;
  }
@@ -109,15 +96,12 @@ li a:hover:not(.active) {
 	font-family: 'Nanum Brush Script', cursive;
 	font-size: 2em;
  }
-
 .pic{
 	 border: 3px solid pink;
  }
-
 .pic:hover {
     border: 1px solid #777;
 }
-
 .gallery img {
 	max-height: 250px;
 	min-width: 100%;
@@ -127,17 +111,14 @@ li a:hover:not(.active) {
 	column-count: 3;
 	column-gap: 1px;
 }
-
 #us img{
 	width: 100%;
 	height: auto;
 	min-height: 100%;
 }
-
 .img_title{
 	border-color: black;
 }
-
 
 /**
  * Resume:
@@ -145,12 +126,10 @@ li a:hover:not(.active) {
  #dl{
 	border: 1em;
 	position: fixed;
-
 	margin: -1em 0 0 -3em;
 	padding: 5px;
 	background-color: pink;
 }
-
 .paper {
 	background-image: url('../media/paper.png');
 	background-color: #0093ad;
