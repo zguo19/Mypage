@@ -1,8 +1,7 @@
 html {
 	background-color:whitesmoke;
 	margin: 0em 3em 0em 3em;
-	height: 100%;
-	min-height: 100%;
+	height: 120%;
 }
 body {
     background-color:lightgoldenrodyellow;
@@ -67,21 +66,32 @@ li a:hover:not(.active) {
  */
 
  #intro p{
-	text-align: left;
 	font-family: 'IBM Plex Serif', serif;
 	font-size: 1em;
  }
 
+ #intro{
+	 border:0.1em solid;
+	 position: relative;
+	 float: right;
+	 padding:10px;
+ }
+
  #bgm{
-	display: block;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	position: relative;
+	float: right;
+ }
+
+ div.music{
+	 float:right;
  }
 
 #bgm_title{
 	padding:0;
-	margin:0;
-	text-align: center;
+	margin:10px;
+	text-align:center;
 }
 
 /**
@@ -93,13 +103,19 @@ li a:hover:not(.active) {
  }
 
 div.gallery {
-    margin: 5%;
-    border: 0.1em solid #ccc;
-	width: 80%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto
+	display: grid;
+    width: 150px;
+    margin: 10px;
+    border: 3px solid lightblue;
 }
+
+/**margin: 5%;
+border: 0.1em solid #ccc;
+width: 80%;
+display: block;
+margin-left: auto;
+margin-right: auto*/
+
 div.gallery:hover {
     border: 1px solid #777;
 }
@@ -133,8 +149,20 @@ div.gallery:hover {
 /**
  * Resume:
  */
- div.dl{
+ #dl{
 	border: 1em;
+	position: fixed;
+    bottom: 1;
+	right: 0;
+	margin: -1em 3em 0px 70px;
+	padding: 5px;
+	background-color: hotpink;
+}
+
+.paper {
+	background-image: url('../media/paper.png');
+	background-color: #0093ad;
+	padding:10px;
 }
 
 /**
@@ -153,4 +181,13 @@ div.gallery:hover {
 	transform: rotateY(180deg);
 	width: 4%;
 	height:auto;
+}
+
+/**
+* media query:
+*/
+@media (min-width: 900px) {
+	.paper {
+		margin: 10px 110px;
+	}
 }
