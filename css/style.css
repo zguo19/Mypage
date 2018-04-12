@@ -102,31 +102,24 @@ li a:hover:not(.active) {
 	font-size: 2em;
  }
 
-div.gallery {
-	display: grid;
-    width: 150px;
-    margin: 10px;
-    border: 3px solid lightblue;
-}
+.pic{
+	 border: 3px solid pink;
+ }
 
-/**margin: 5%;
-border: 0.1em solid #ccc;
-width: 80%;
-display: block;
-margin-left: auto;
-margin-right: auto*/
-
-div.gallery:hover {
+.pic:hover {
     border: 1px solid #777;
 }
 
-
-
- #japan img{
-    width: 100%;
-	height: auto;
-	min-height: 100%;
+img {
+	max-height: 250px;
+	min-width: 100%;
+	margin-bottom: 30px;
 }
+#cols {
+	column-count: 3;
+	column-gap: 1px;
+}
+
 /**
 #rotate{
 	transform: rotate(90deg);
