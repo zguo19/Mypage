@@ -60,7 +60,7 @@ li a:hover:not(.active) {
 }
  #intro p{
 	/**font-family: 'IBM Plex Serif', serif;*/
-	font-family: 'Gaegu', cursive;;
+	font-family: 'Gaegu', cursive;
 	font-size: 30px;
 	color:white;
 	margin:0;
@@ -93,8 +93,12 @@ li a:hover:not(.active) {
 	height: 400px;
 	width: 50%;
 	float:left;
-	border: 0.5em solid goldenrod;
-   }
+	border: 0.5em solid rgb(102, 96, 96);
+}
+#des{
+	font-family: 'Gaegu', cursive;
+	font-size: 6em;
+}
 
 /**
  * my favorite:
