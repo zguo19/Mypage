@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
 </head>
 
 <body>
@@ -59,6 +60,74 @@
         <img class="pic" src="media/northmichigan3.jpeg" alt="NorthMaichigan3" />
       </div>
   </div>
+
+  <p id="travel">Places I've traveled</p>
+
+  <div id="map"></div>
+  <script>
+    function initMap() {
+      var center = {lat: 37.663998, lng: 127.978458};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: center
+      });
+      var marker = new google.maps.Marker({
+        position: {lat: 31.230390, lng: 121.473702},
+        map: map,
+        label: "Shanghai"
+      }); 
+      var marker = new google.maps.Marker({
+        position: {lat: 34.341574, lng: 108.939770},
+        map: map,
+        label: "Xian"
+      }); 
+      var marker = new google.maps.Marker({
+        position: {lat: 30.592849, lng: 114.305539},
+        map: map,
+        label:"Wuhan"
+      }); 
+      var marker = new google.maps.Marker({
+        position: {lat: 30.274084, lng: 120.155070},
+        map: map,
+        label:"Hangzhou"
+      }); 
+      var marker = new google.maps.Marker({
+        position: {lat: 30.572815, lng: 104.066801},
+        map: map,
+        label:"Chengdu"
+      }); 
+      var marker = new google.maps.Marker({
+        position: {lat: 34.685087, lng: 135.805000},
+        map: map,
+        label: "Nara"
+      }); 
+      var marker = new google.maps.Marker({
+        position: {lat: 34.693738, lng: 135.502165},
+        map: map,
+        label: "Osaka"
+      }); 
+      var marker = new google.maps.Marker({
+        position: {lat: 35.011636, lng: 135.768029},
+        map: map,
+        label:"Kyoto"
+      }); 
+      var marker = new google.maps.Marker({
+        position: {lat: 35.689487, lng: 139.691706},
+        map: map,
+        label:"Tokyo"
+      }); 
+      var marker = new google.maps.Marker({
+        position: {lat: 34.385203, lng: 132.455293},
+        map: map,
+        label:"Hiroshima"
+      }); 
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmKp6pae16lhl0N7ly-fZjH0DL2j0nNIA&callback=initMap">
+  </script>
+  <p id="des2">China, Japan</p>
 </body>
 
 </html>
+
